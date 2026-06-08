@@ -10,9 +10,8 @@ body {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   border: solid 1px black;
-  display: inline-block;
   width: 100%;
   bottom: 0;
   left: 0;
