@@ -8,3 +8,15 @@ body {
   font-style: normal;
   font-size: 16px;
 }
+
+footer {
+  position: absolute;
+  border: solid 1px black;
+  display: inline-block;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 45px;
+  text-align: center;
+  font-size: 13px;
+}
