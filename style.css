@@ -7,6 +7,9 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+  margin: 5px;
+  border: solid 1px #e8eaec;
+  border-radius: 15px;
 }
 
 footer {
