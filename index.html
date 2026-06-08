@@ -15,6 +15,23 @@
 
     <main>
         <p>This is the homepage of my website, built using an index.html file.</p>
+
+        <div id="splash-screen">
+  <button id="start-btn">Enter Website</button>
+</div>
+
+<audio id="my-audio" loop>
+  <source src="your-song.mp3" type="audio/mp3">
+</audio>
+
+<script>
+  document.getElementById('start-btn').addEventListener('click', () => {
+    // Play the audio and hide the splash screen
+    document.getElementById('my-audio').play();
+    document.getElementById('splash-screen').style.display = 'none';
+  });
+</script>
+        
     </main>
 
     <footer>
